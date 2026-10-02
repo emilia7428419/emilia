@@ -1,0 +1,193 @@
+# 📅 Agenda Escolar - Curso Técnico em Informática
+**Escola Estadual Maria Barbosa Leite**
+
+Este repositório contém a agenda escolar completa e o plano de atividades para o curso Técnico em Informática, articulando as disciplinas de Design, Empreendedorismo, Banco de Dados e Programação Web II ao longo do semestre.
+
+---
+
+## 📚 Disciplinas Contempladas
+
+* 🎨 **Design (UI/UX):** Prototipagem, Figma, Arquitetura de Informação, Teoria das Cores e Usabilidade.
+* 💼 **Empreendedorismo:** Modelos de Negócio, Business Model Canvas, Pitch e Finanças para Startups.
+* 🗄️ **Banco de Dados:** Modelagem ER, SQL, Queries Avançadas e Integração com SGBD.
+* 💻 **Programação Web II:** Node.js, Express, APIs RESTful, Autenticação JWT e Integração com Banco de Dados.
+
+---
+
+## 📊 Visão Geral do Calendário (Módulos)
+
+| Semana | Módulo / Foco Principal | Entregável / Milestone |
+| :---: | :--- | :--- |
+| **01 - 04** | Levantamento de Requisitos e Prototipagem | `[PROJETO]` Modelo Canvas + Wireframe Inicial |
+| **05 - 08** | Modelagem de Dados e Frontend Base | `[PRÁTICA]` Banco DER + Telas UI no Figma |
+| **09 - 12** | Desenvolviemento Backend e APIs REST | `[AVALIAÇÃO]` API Integrada ao BD Relacional |
+| **13 - 16** | Autenticação, Testes e Mapeamento Financeiro | `[PROJETO]` Sistema Web Autenticado + Plano de Custos |
+| **17 - 20** | Validação, Ajustes e Apresentação do Projeto Integrador | `[FINAL]` Pitch de Vendas + Código no GitHub |
+
+---
+
+## 🗓️ Cronograma Detalhado Por Semana
+
+### 🔹 Módulo 1: Fundamentação e Ideação (Semanas 01 a 04)
+
+#### Semana 01 — Pesquisa de Mercado e Introdução
+* **Design:** Conceitos de UI/UX e Pesquisa de Usuário (Personas).
+* **Empreendedorismo:** Identificação de Problemas e Ideação de Soluções.
+* **Banco de Dados:** Conceitos de Sistemas Gerenciadores de Banco de Dados (SGBD).
+* **Programação Web II:** Revisão de JavaScript Assíncrono e Node.js.
+* **Checklist da Semana:**
+  - [ ] `- [Design]` Criar 2 Personas para o projeto integrador.
+  - [ ] `- [Empreendedorismo]` Preencher o formulário de validação do problema.
+  - [ ] `- [Banco de Dados]` Instalar PostgreSQL/MySQL localmente.
+  - [ ] `- [Prog. Web II]` Configurar o ambiente com Node.js e NPM.
+
+#### Semana 02 — Estruturação da Ideia e Arquitetura
+* **Design:** Wireframes de Baixa Fidelidade e Arquitetura de Informação.
+* **Empreendedorismo:** Construção do Business Model Canvas (BMC).
+* **Banco de Dados:** Modelo Entidade-Relacionamento (DER) - Conceitual.
+* **Programação Web II:** Modulos no Node.js e Servidor HTTP básico com Express.
+* **Checklist da Semana:**
+  - [ ] `- [Design]` Rascunhar o fluxo de telas principal no papel/Figma.
+  - [ ] `- [Empreendedorismo]` Mapear os 9 blocos do Canvas.
+  - [ ] `- [Banco de Dados]` Desenhar o diagrama DER no BrModel ou Draw.io.
+  - [ ] `- [Prog. Web II]` Subir a primeira rota GET `/status` no Express.
+
+#### Semana 03 — Validação e Relacionamentos
+* **Design:** Guia de Estilo (Cores, Tipografia e Componentes).
+* **Empreendedorismo:** Análise de Concorrentes e Proposta de Valor.
+* **Banco de Dados:** Modelo Lógico e Regras de Normalização (1FN, 2FN, 3FN).
+* **Programação Web II:** Estruturação de Rotas REST (GET, POST, PUT, DELETE).
+* **Checklist da Semana:**
+  - [ ] `- [Design]` Definir a paleta de cores acessível (WCAG).
+  - [ ] `- [Banco de Dados]` Aplicar a 3ª Forma Normal no modelo.
+  - [ ] `- [Prog. Web II]` Criar os endpoints do CRUD simulando dados em memória.
+
+#### Semana 04 — Prototipagem e DDL
+* **Design:** Protótipo Navegável de Média Fidelidade no Figma.
+* **Empreendedorismo:** Definição do Mínimo Produto Viável (MVP).
+* **Banco de Dados:** Comandos DDL (`CREATE TABLE`, `ALTER TABLE`, `DROP TABLE`).
+* **Programação Web II:** Conexão do Node.js com o Banco de Dados (Driver / ORM).
+* **Checklist da Semana:**
+  - [ ] `- [PROJETO]` Testar navegação do protótipo no Figma.
+  - [ ] `- [Banco de Dados]` Executar o script SQL para criação das tabelas.
+  - [ ] `- [Prog. Web II]` Testar a conexão do backend com o banco.
+
+---
+
+### 🔹 Módulo 2: Desenvolvimento de Funcionalidades (Semanas 05 a 08)
+
+#### Semana 05 — Interfaces e Consultas Básicas
+* **Design:** UI Kit e Design System simplificado.
+* **Empreendedorismo:** Estratégia de Captação e Retenção de Clientes.
+* **Banco de Dados:** Comandos DML (`INSERT`, `UPDATE`, `DELETE`).
+* **Programação Web II:** Implementação do CRUD no Banco de Dados via API.
+* **Checklist da Semana:**
+  - [ ] `- [Banco de Dados]` Inserir dados de teste (Seeds) via SQL.
+  - [ ] `- [Prog. Web II]` Conectar a rota POST ao banco para persistir dados.
+
+#### Semana 06 — Filtros e Experiência de Uso
+* **Design:** Microinterações e Feedback Visual ao Usuário.
+* **Empreendedorismo:** Mapeamento de Custos Fixos e Variáveis.
+* **Banco de Dados:** Consultas SQL com `WHERE`, `ORDER BY` e `LIKE`.
+* **Programação Web II:** Tratamento de Erros e Validação de Dados de Entrada.
+* **Checklist da Semana:**
+  - [ ] `- [Empreendedorismo]` Planilhar custos de servidores e licenças.
+  - [ ] `- [Prog. Web II]` Adicionar validação de campos nos endpoints.
+
+#### Semana 07 — Relacionamentos Complexos
+* **Design:** Acessibilidade Web (Leitores de tela, contraste).
+* **Empreendedorismo:** Modelos de Receita (Assinatura, Freemium, Venda Direta).
+* **Banco de Dados:** Junções SQL (`INNER JOIN`, `LEFT JOIN`).
+* **Programação Web II:** Consultas Relacionais na API e Paginação.
+* **Checklist da Semana:**
+  - [ ] `- [Banco de Dados]` Gerar relatórios unindo 2 ou mais tabelas.
+  - [ ] `- [Prog. Web II]` Retornar dados relacionados na resposta JSON.
+
+#### Semana 08 — Fechamento do MVP Backend
+* **Design:** Validação de Usabilidade com Usuários Reais.
+* **Empreendedorismo:** Métricas de Sucesso (CAC, LTV, Churn).
+* **Banco de Dados:** Agrupamento de Dados (`GROUP BY`, `HAVING`, `COUNT`, `SUM`).
+* **Programação Web II:** Organização da Arquitetura em Camadas (Controller, Service, Repository).
+* **Checklist da Semana:**
+  - [ ] `- [AVALIAÇÃO]` Apresentação da versão Alpha da API e do Banco.
+
+---
+
+### 🔹 Módulo 3: Segurança e Integração Avançada (Semanas 09 a 12)
+
+#### Semana 09 — Autenticação e Criptografia
+* **Design:** Telas de Login, Cadastro e Redefinição de Senha.
+* **Empreendedorismo:** Legislação, LGPD e Contratos de Serviço.
+* **Banco de Dados:** Criptografia de Dados Sensíveis e Colunas Únicas.
+* **Programação Web II:** Autenticação JWT (JSON Web Tokens) e Criptografia de Senhas (bcrypt).
+* **Checklist da Semana:**
+  - [ ] `- [Prog. Web II]` Criptografar a senha do usuário antes de salvar no banco.
+  - [ ] `- [Prog. Web II]` Gerar o Token JWT no login com sucesso.
+
+#### Semana 10 — Autorização e Permissões
+* **Design:** Painéis Administrativos vs. Visão do Cliente.
+* **Empreendedorismo:** Estratégia de Marketing Digital e Redes Sociais.
+* **Banco de Dados:** Visões (`VIEWS`) e Permissões de Usuários no Banco.
+* **Programação Web II:** Middlewares de Proteção de Rotas por Perfil (Admin/User).
+* **Checklist da Semana:**
+  - [ ] `- [Prog. Web II]` Bloquear acesso a rotas privadas sem Token JWT válido.
+
+#### Semana 11 — Otimização e Performance
+* **Design:** Otimização de Imagens e Componentes SVG.
+* **Empreendedorismo:** Planejamento de Escalabilidade do Negócio.
+* **Banco de Dados:** Criação de Índices (`INDEX`) para Otimização de Buscas.
+* **Programação Web II:** Middlewares para Upload de Arquivos e Armazenamento.
+* **Checklist da Semana:**
+  - [ ] `- [Banco de Dados]` Criar índices nas chaves estrangeiras.
+  - [ ] `- [Prog. Web II]` Implementar upload de imagens no cadastro do produto/perfil.
+
+#### Semana 12 — Integração Completa
+* **Design:** Design Responsivo (Mobile First).
+* **Empreendedorismo:** Elaboração do Roteiro do Pitch (Storytelling).
+* **Banco de Dados:** Transações SQL (`COMMIT`, `ROLLBACK`).
+* **Programação Web II:** Integração do Frontend com a API Backend.
+* **Checklist da Semana:**
+  - [ ] `- [PROJETO]` Testar o fluxo completo da aplicação (UI + API + BD).
+
+---
+
+### 🔹 Módulo 4: Finalização e Apresentação (Semanas 13 a 20)
+
+#### Semana 13 — Testes e Qualidade
+* **Design:** Teste de Estresse de Interface em Múltiplas Telas.
+* **Empreendedorismo:** Treinamento do Pitch de 3 Minutos.
+* **Banco de Dados:** Backups e Restauração de Banco de Dados.
+* **Programação Web II:** Testes de Endpoints com Postman/Insomnia.
+* **Checklist da Semana:**
+  - [ ] `- [PRÁTICA]` Exportar arquivo `.sql` com o banco final preenchido.
+
+#### Semana 14 — Ajustes e Correções de Bugs
+* **Design:** Refinamento dos Componentes Visuais.
+* **Empreendedorismo:** Preparação do Material Visual do Pitch (Slides).
+* **Banco de Dados:** Auditoria de Consultas Lentas.
+* **Programação Web II:** Tratamento de Exceções Globais no Servidor.
+* **Checklist da Semana:**
+  - [ ] `- [PROJETO]` Corrigir todos os erros apontados nos testes.
+
+#### Semana 15 — Deploy e Hospedagem
+* **Design:** Documentação Visual e Guia da Marca.
+* **Empreendedorismo:** Projeção de Faturamento e Preço de Venda.
+* **Banco de Dados:** Configuração de Banco em Nuvem (Render, Supabase ou Aiven).
+* **Programação Web II:** Deploy do Backend (Render/Vercel) e Variáveis de Ambiente (`.env`).
+* **Checklist da Semana:**
+  - [ ] `- [Prog. Web II]` Configurar o banco e o servidor online rodando em produção.
+
+#### Semanas 16 a 20 — Apresentações e Conclusão
+* **Atividade Principal:** Finalização do Projeto Integrador.
+* **Entregáveis:**
+  - [ ] `- [FINAL]` Repositório no GitHub atualizado e documentado.
+  - [ ] `- [FINAL]` Sistema web hospedado e funcional.
+  - [ ] `- [FINAL]` Apresentação do Pitch para a banca avaliadora.
+
+---
+
+## 🚀 Como Utilizar este Repositório
+
+1. Faça um **Fork** deste repositório para o seu perfil.
+2. Conforme você avança nas aulas e entrega os exercícios, marque os itens do checklist editando o arquivo ou clicando diretamente na interface de **Issues** / **Tasklists** do GitHub.
+3. Utilize as **Issues** do repositório para registrar dúvidas de *Design*, *Banco de Dados*, *Programação Web* ou *Empreendedorismo*.
